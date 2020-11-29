@@ -3,8 +3,8 @@ import * as React from 'react';
 import Text from './Text';
 
 export interface PreloaderProps {
-  text?: string
-};
+  text?: string;
+}
 
 const defaultProps: Partial<PreloaderProps> = {
   text: 'Loading...'

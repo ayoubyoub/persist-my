@@ -5,7 +5,6 @@ import { rootReducer, State } from './root-reducer';
 import sagas from './root-saga';
 import initialState from './root-state';
 
-//const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const sagaMiddleware = createSagaMiddleware();
 
 const enhancer = compose(

@@ -5,9 +5,9 @@ import Title from './Title';
 import Label from './Label';
 
 export interface CardProps {
-  title?: string,
-  label?: string
-};
+  title?: string;
+  label?: string;
+}
 
 const defaultProps: Partial<CardProps> = {
   title: 'Default title',

@@ -18,7 +18,7 @@ interface UsersPageProps extends React.Props<Users> {
   isLoading: boolean;
   isFetched: boolean;
   onUsersFetch: () => void;
-};
+}
 
 class Users extends React.Component<UsersPageProps, void> {
   public render(): React.ReactElement<{}> {
@@ -34,8 +34,9 @@ class Users extends React.Component<UsersPageProps, void> {
             return (
               <Card
                 key={idx}
-                title={item.nm}
-                label={item.pp}
+                title={item.FullName}
+                label={item.Terms}
+                // tslint:disable-next-line:jsx-alignment
                 />
             );
           })}

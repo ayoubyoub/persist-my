@@ -1,11 +1,11 @@
 export interface User {
-  id: number,
-  nm: string,
-  pp: string,
-  tm: string
+  ID: number;
+  FullName: string;
+  Terms: string;
+  Party: string;
 }
 
 export interface UserAction {
-  type: string
-  payload?: any
+  type: string;
+  payload?: any;
 }
